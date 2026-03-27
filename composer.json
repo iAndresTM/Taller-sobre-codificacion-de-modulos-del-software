@@ -1,0 +1,22 @@
+{
+    "name": "andrest/barberia-elite",
+    "description": "proyecto php8, mvc, sql, sass, gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andres Torres",
+            "email": "29adt.marquez@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
